@@ -1,0 +1,28 @@
+<main>
+  <form >
+  <div>
+    <label>You send</label>
+    <mat-form-field appearance="outline">
+      <input matInput type="text" id="some" placeholder="type value" (change)="convertSingleValueEvent(currency_1)" [formControl]="value_1_Control">
+      <span matTextPrefix class="fi fi-gb"></span>
+      <span matTextSuffix>{{currency_1}}</span>
+          <mat-error *ngIf="value_1_Control.hasError('required')">You have to type something</mat-error>
+          <mat-error *ngIf="value_1_Control.hasError('pattern')">Invalid pattern</mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <label>They receive</label>
+    <mat-form-field appearance="outline">
+      <input matInput type="text" placeholder="type value" (change)="convertSingleValueEvent(currency_2)" [formControl]="value_2_Control">
+      <span matTextPrefix class="fi fi-pl"></span>
+      <span matTextSuffix>{{currency_2}}</span>
+      <mat-error *ngIf="value_1_Control.hasError('required')">You have to type something</mat-error>
+      <mat-error *ngIf="value_1_Control.hasError('pattern')">Invalid pattern</mat-error>
+    </mat-form-field>
+  </div>
+  </form>
+  <div *ngIf="exchangeRate != ''">
+    <span class="converter">1 {{toConvertCurrency}} = </span>
+    <span class="converter bold">{{exchangeRate}} {{convertedCurrency}}</span>
+  </div>
+</main>
