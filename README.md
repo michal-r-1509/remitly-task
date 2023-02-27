@@ -107,11 +107,11 @@ places.
 
 ### SCREENSHOTS
 
-![CPM - screenshot](screenshots/ui_blank.PNG)
+![CPM - screenshot](screenshots/ui_blank.png)
 
-![CPM - screenshot](screenshots/ui_1_example.PNG)
+![CPM - screenshot](screenshots/ui_1_example.png)
 
-![CPM - screenshot](screenshots/ui_2_example.PNG)
+![CPM - screenshot](screenshots/ui_2_example.png)
 
 
 
