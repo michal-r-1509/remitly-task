@@ -7,16 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="remitly-task-ui" />
         <module name="remitly-task-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="remitly-task" target="17" />
       <module name="remitly-task-app" target="17" />
+      <module name="remitly-task-ui" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="remitly-task-app" options="-parameters" />
+      <module name="remitly-task-ui" options="-parameters" />
     </option>
   </component>
 </project>

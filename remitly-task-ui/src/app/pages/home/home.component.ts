@@ -22,10 +22,6 @@ export class HomeComponent {
   value_2_Control = new FormControl('',
     [Validators.required, Validators.pattern("^\\d{1,9}(\\.\\d{1,2})?$")]);
 
-/*  group = new FormGroup({
-    value: this.value_1_Control
-  })*/
-
   constructor(private converterService: ConverterService) {
   }
 

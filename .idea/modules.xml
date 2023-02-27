@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/remitly-task.iml" filepath="$PROJECT_DIR$/.idea/remitly-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/remitly-task-app/remitly-task-app.iml" filepath="$PROJECT_DIR$/remitly-task-app/remitly-task-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remitly-task-ui/remitly-task-ui.iml" filepath="$PROJECT_DIR$/remitly-task-ui/remitly-task-ui.iml" />
     </modules>
   </component>
 </project>
